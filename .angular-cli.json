@@ -82,6 +82,12 @@
       }
     },
     {
+      "name": "jade-component",
+      "root": "libs/jade-component/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
       "name": "jade-http",
       "root": "libs/jade-http/src",
       "test": "../../../test.js",
@@ -90,6 +96,36 @@
     {
       "name": "jade.lib",
       "root": "libs/jade.lib/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "mylib",
+      "root": "libs/mylib/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "mymodule",
+      "root": "libs/mymodule/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "myotherlib",
+      "root": "libs/myotherlib/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "myothermodule",
+      "root": "libs/myothermodule/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "mythirdmodule",
+      "root": "libs/mythirdmodule/src",
       "test": "../../../test.js",
       "appRoot": ""
     }

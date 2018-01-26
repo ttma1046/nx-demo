@@ -5,7 +5,13 @@ import { NxModule } from '@nrwl/nx';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [BrowserModule, NxModule.forRoot(), RouterModule.forRoot([], { initialNavigation: 'enabled' })],
+  imports: [
+    BrowserModule,
+    NxModule.forRoot(),
+    RouterModule.forRoot([{ path: 'mythirdmodule', loadChildren: '@eapps/mythirdmodule#MythirdmoduleModule' }], {
+      initialNavigation: 'enabled'
+    })
+  ],
   declarations: [AppComponent],
   bootstrap: [AppComponent]
 })
